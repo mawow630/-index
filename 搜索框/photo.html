@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bing——图片瀑布流</title>
+    <!--<link rel="stylesheet" href="CSS/typography.css">-->
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/loginCSS.css">
+    <link rel="stylesheet" href="CSS/photoCSS.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="photo.html">图片</a></li>
+            <li><a href="http://cn.bing.com/videos/trending">视频</a></li>
+            <li><a href="http://cn.bing.com/academic/?FORM=Z9LH2">学术</a></li>
+            <li><a href="http://cn.bing.com/dict/?FORM=Z9LH3">词典</a></li>
+            <li><a href="http://cn.bing.com/ditu/?FORM=Z9LH4">地图</a></li>
+            <li><a href="http://cn.bing.com/explore?FORM=Z9LH5">更多</a></li>
+            <li>|</li>
+            <li id="offc"><a href="">Office Online</a>
+                <div id="officeShow">
+                    <ul>
+                        <li><a href="https://office.live.com/start/Word.aspx">
+                            <div id="office_word"></div>
+                            <p>Word Online</p></a></li>
+                        <li><a href="https://office.live.com/start/Excel.aspx">
+                            <div id="office_excel"></div>
+                            <p>Excel Online</p></a></li>
+                        <li><a href="https://office.live.com/start/PowerPoint.aspx">
+                            <div id="office_ppt"></div>
+                            <p>PowerPoint Online</p></a></li>
+                        <li><a href="https://www.onenote.com/hrd">
+                            <div id="office_onenode"></div>
+                            <p>OneNode Online</p></a></li>
+                        <li><a href="https://sway.com/">
+                            <div id="office_sway"></div>
+                            <p>Sway</p></a></li>
+                        <li><a href="https://docs.com/zh-cn">
+                            <div id="office_docs"></div>
+                            <p>Docs.com</p></a></li>
+                        <li><a href="https://onedrive.live.com/">
+                            <div id="office_onedrive"></div>
+                            <p>OneDrive</p></a></li>
+                        <li>
+                            <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1472614898&rver=6.7.6631.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fonedrive.live.com%2F%3Fgologin%3D1%26WT.mc_id%3DO16_BingHP%26mkt%3Dzh-CN&lc=2052&id=250206&cbcxt=sky&mkt=zh-CN&lw=1&fl=easi2">
+                                <div id="office_cal"></div>
+                                <p>日历</p></a></li>
+                        <li>
+                            <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1472614919&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fcalendar.live.com%2F%3FWT.mc_id%3DO16_BingHP&lc=2052&id=64362&mkt=zh-cn">
+                                <div id="office_people"></div>
+                                <p>人脉</p></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="https://login.live.com/login.srf?wa=wsignin1.0&ct=1472614331&rver=6.6.6556.0&wp=MBI_SSL&wreply=https:%2F%2Foutlook.live.com%2Fowa%2F&id=292841&CBCXT=out">Outlook.com</a>
+            </li>
+        </ul>
+
+        <ul class="navRight">
+            <li><a href="http://global.bing.com/?FORM=HPCNEN&setmkt=en-us&setlang=en-us">Switch to Bing in English</a>
+            </li>
+            <li>|</li>
+            <li id="navLogin"><a href=""><span>登录</span><span class="login fa fa-user fa-2x"></span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="content">
+    <!--<div class="item">-->
+    <!--<div class="style">-->
+    <!--<img src="imgs/P_00.jpg" alt="">-->
+    <!--</div>-->
+    <!--</div>-->
+</div>
+
+<div id="login">
+    <div id="exit" class="fa fa-times fa-2x"></div>
+    <div id="logo"><h1>登录</h1>
+        <p>使用您的Microsoft账户</p></div>
+    <form id="loginArea" action="">
+        <input type="text" placeholder="电子邮件/电话号码" autocomplete="off"/>
+        <input type="password" placeholder="密码" autocomplete="off"/>
+        <button id="loginBtn">登录</button>
+    </form>
+</div>
+
+
+<script src="JQurey/photo/addImage.js"></script>
+<!--<script src="JQurey/photo/photoShow.js"></script>-->
+<script src="JavaScript/photo/script.js"></script>
+
+<script src="JQurey/login_show.js"></script>
+<script src="JQurey/fade.js"></script>
+</body>
+</html>

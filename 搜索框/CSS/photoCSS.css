@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    position:relative;
+}
+.item{
+    /*用offset-height计算值不会包括margin,但是会包括padding*/
+    padding-top: 15px;
+    padding-left: 15px;
+    /*浮动后获得inline的属性*/
+    float: left;
+}
+.style{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.style img{
+    width: 170px;
+}
